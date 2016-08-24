@@ -1,0 +1,19 @@
+<ion-header>
+    <ion-navbar primary>
+        <button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Validar Certificado</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content>
+    <ion-list>
+        <ion-item>
+            <ion-label>CPF do Aluno</ion-label>
+            <ion-input (ng-model)="alunoCPF" type="text"></ion-input>
+        </ion-item>
+    </ion-list>
+    <div class="padding-20">
+        <button block (click)="validate()" disabled>Validar certificado</button>
+    </div>
+</ion-content>

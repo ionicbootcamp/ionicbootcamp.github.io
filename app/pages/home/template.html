@@ -1,0 +1,45 @@
+<ion-header>
+    <ion-navbar primary>
+        <button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Ionic Bootcamp</ion-title>
+        <!--ion-buttons end>
+            <button>
+            <ion-icon name="share"></ion-icon>
+        </button>
+            <button>
+            <ion-icon name="notifications"></ion-icon>
+        </button>
+        </ion-buttons-->
+    </ion-navbar>
+</ion-header>
+<ion-content>
+    <img src="img/heading.jpg">
+    <div class="padding-20">
+        <h2>Um dia inteiro construindo o futuro dos apps mobile.</h2>
+        <p style="margin: 5px 0 0;">O Ionic Bootcamp é um curso completo de 12h em um dia de treinamento presencial utilizando o framework Ionic 2 para a construição da aplicativos híbridos para Android, iOS e Windows.</p>
+    </div>
+    <ion-grid>
+        <ion-row>
+            <ion-col width-50>
+                <button block (click)="openAgenda()">Agenda completa</button>
+            </ion-col>
+            <ion-col width-50>
+                <button block (click)="openRegister()">Inscreva-se</button>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+    <div class="padding-20">
+        <strong>Iremos aprender durante o curso:</strong>
+        <ul>
+            <li>Novidades do Ionic 2</li>
+            <li>Como trabalhar com o Angular 2 no Ionic</li>
+            <li>Uso e criação de componentes</li>
+            <li>Uso de APIs e plugins Nativos (Geolocalização, Câmera, Network, Analytics, Browser, entre outros)</li>
+            <li>Autenticação e Database com o Firebase</li>
+            <li>Uso de APIs externas como Foursquare, YouTube e Google Maps</li>
+            <li>E mais!</li>
+        </ul>
+    </div>
+</ion-content>

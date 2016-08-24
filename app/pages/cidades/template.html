@@ -1,0 +1,19 @@
+<ion-header>
+    <ion-navbar primary>
+        <button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Próximos Bootcamps</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content class="card-background-page">
+
+    <ion-card *ngFor="let cidade of cidades">
+        <div (click)="openSite(cidade.url)" class="cursor: hand;">
+            <img [src]="cidade.image" />
+            <div class="card-title">{{cidade.name}}</div>
+            <div class="card-subtitle">{{cidade.date}}</div>
+        </div>
+    </ion-card>
+
+</ion-content>

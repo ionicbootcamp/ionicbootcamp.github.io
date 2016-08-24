@@ -1,0 +1,15 @@
+ion-col.agenda-hour {
+    text-align: center;
+}
+
+ion-row.agenda-row:nth-child(2n) {
+    background: #f6f6f6;
+}
+
+ion-row.agenda-row:nth-child(2n+1) {
+    background: #ccc;
+}
+
+ion-grid.agenda-grid {
+    padding: 0;
+}
