@@ -10,6 +10,7 @@ import {Depoimentos} from './pages/depoimentos/depoimentos';
 import {Cidades} from './pages/cidades/cidades';
 import {Company} from './pages/company/company';
 import {Validar} from './pages/validar/validar';
+import {InAppBrowser} from 'ionic-native';
 
 @Component({
   templateUrl: 'build/app.html'
@@ -49,7 +50,17 @@ class IonicBootcamp {
     this.menu.close();
     this.nav.setRoot(page.component);
   }
+
+  openContact() {
+    if(this.platform.is('core') || this.platform.is('mobileweb')){
+      window.open("https://store.tampa.works/contato/?curso=ionic", '_blank');
+    } else {
+      InAppBrowser.open("https://store.tampa.works/contato/?curso=ionic", "_system");
+    }
+  }
 }
 
 enableProdMode();
-ionicBootstrap(IonicBootcamp);
+ionicBootstrap(IonicBootcamp, [], {
+  mode: 'md'
+});

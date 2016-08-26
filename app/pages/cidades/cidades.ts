@@ -17,13 +17,13 @@ export class Cidades {
         name: 'Fortaleza - CE',
         date: '18 de setembro',
         image: 'img/cidades/fortaleza.jpg',
-        url: 'https://store.tampa.works/produto/ionic-bootcamp-fortaleza/'
+        url: 'https://store.tampa.works/produto/ionic-bootcamp-fortaleza/?curso=ionic'
       },
       {
         name: 'Salvador - BA',
         date: '8 de Outubro',
         image: 'img/cidades/salvador.jpg',
-        url: 'https://store.tampa.works/produto/ionic-bootcamp-ssa/'
+        url: 'https://store.tampa.works/produto/ionic-bootcamp-ssa/?curso=ionic'
       }
     ]
   }

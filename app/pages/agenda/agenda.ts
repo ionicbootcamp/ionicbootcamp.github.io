@@ -84,7 +84,7 @@ export class Agenda {
         description: ""
       },
       {
-        time: "19:45",
+        time: "20:00",
         title: "Encerramento",
         description: ""
       }
