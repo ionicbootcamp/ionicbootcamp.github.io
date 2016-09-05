@@ -21,9 +21,15 @@ export class Cidades {
       },
       {
         name: 'Salvador - BA',
-        date: '8 de Outubro',
+        date: '9 de Outubro',
         image: 'img/cidades/salvador.jpg',
         url: 'https://store.tampa.works/produto/ionic-bootcamp-ssa/?curso=ionic'
+      },
+      {
+        name: 'Goiania - GO',
+        date: '16 de Outubro',
+        image: 'img/cidades/goiania.jpg',
+        url: 'https://store.tampa.works/produto/ionic-bootcamp-goiania/?curso=ionic'
       }
     ]
   }

@@ -16,11 +16,11 @@ export class Instrutor {
     this.platform = platform;
   }
 
-  openSite(){
+  openSite(url:string){
     if(this.platform.is('core') || this.platform.is('mobileweb')){
-      window.open('https://joselito.space', '_blank');
+      window.open(url, '_blank');
     } else {
-      InAppBrowser.open("https://joselito.space", "_system");
+      InAppBrowser.open(url, "_system");
     }
   }
 

@@ -24,4 +24,12 @@ export class Home {
   openRegister(){
     this.nav.setRoot(Cidades)
   }
+  
+  openBitBar(){
+    if(this.platform.is('core') || this.platform.is('mobileweb')){
+      window.open('https://play.google.com/store/apps/details?id=space.joselito.bitbar', '_blank');
+    } else {
+      InAppBrowser.open("https://play.google.com/store/apps/details?id=space.joselito.bitbar", "_system");
+    }
+  }
 }

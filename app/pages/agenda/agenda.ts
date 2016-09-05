@@ -74,18 +74,13 @@ export class Agenda {
         description: "Último app e nosso chefão. Iremos criar um app que procura bares de uma região e o usuário pode pedir um Uber direto pra lá. Usaremos as APIs do Google Maps, Foursquare e Uber, além de vários plugins do Ionic Native.",
       },
       {
-        time: "19:20",
+        time: "19:45",
         title: "Enviando pras lojas",
         description: "Veremos como empacotar sua aplicação, assina-la e enviar para as lojas (Google Play e App Store)"
       },
       {
-        time: "19:45",
-        title: "Entrega dos certificados",
-        description: ""
-      },
-      {
         time: "20:00",
-        title: "Encerramento",
+        title: "Entrega dos certificados e Encerramento",
         description: ""
       }
     ]
