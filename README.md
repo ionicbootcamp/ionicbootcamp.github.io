@@ -6,18 +6,18 @@
 O Ionic Bootcamp é um curso completo de 12h em um dia de treinamento presencial utilizando o framework Ionic 2 para a construição da aplicativos híbridos para Android, iOS e Windows.
 
 ### Iremos aprender durante o curso:
-– Novidades do Ionic 2
-– Como trabalhar com o Angular 2 no Ionic
-– Uso e criação de componentes
-– Uso de APIs e plugins Nativos (Geolocalização, Câmera, Network, Analytics, Browser, entre outros)
-– Autenticação e Database com o Firebase
-– Uso de APIs externas como Foursquare, YouTube e Google Maps
-– E mais!
+- Novidades do Ionic 2
+- Como trabalhar com o Angular 2 no Ionic
+- Uso e criação de componentes
+- Uso de APIs e plugins Nativos (Geolocalização, Câmera, Network, Analytics, Browser, entre outros)
+- Autenticação e Database com o Firebase
+- Uso de APIs externas como Foursquare, YouTube e Google Maps
+- E mais!
 
 Escutamos o principal pedido de vocês do PhoneGap Bootcamp: mais que usar APIs e Plugins, iremos desenvolver aplicações completas com Ionic 2.
 No Ionic Bootcamp iremos fazer 4 apps completos num dia de curso.
 
-## Site oficial: http://ionicbootcamp.com
+### Site oficial: http://ionicbootcamp.com
 
 ## Cidades
 Cidade | Data | Inscrições
@@ -26,7 +26,7 @@ Fortaleza | 18 de Setembro |  http://joselito.pw/ionicfortaleza
 Salvador | 9 de Outubro | http://joselito.pw/ionicssa
 Goiania | 17 de Outubro | http://joselito.pw/ionicgoiania
 
-### Agenda completa
+## Agenda completa
 Horário | Conteúdo
 --- | ---
 07:30 | Credenciamento
