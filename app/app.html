@@ -9,6 +9,7 @@
         </ion-list>
         <ion-list>
             <ion-list-header> Alunos </ion-list-header>
+            <button ion-item (click)="openSlack()">Slack</button>
             <button ion-item *ngFor="let p of studentPages" (click)="openPage(p)"> {{p.title}} </button>
         </ion-list>
     </ion-content>

@@ -58,6 +58,14 @@ class IonicBootcamp {
       InAppBrowser.open("https://store.tampa.works/contato/?curso=ionic", "_system");
     }
   }
+
+  openSlack() {
+    if(this.platform.is('core') || this.platform.is('mobileweb')){
+      window.open("https://ionicbootcamp.slack.com", '_blank');
+    } else {
+      InAppBrowser.open("https://ionicbootcamp.slack.com", "_system");
+    }
+  }
 }
 
 enableProdMode();
