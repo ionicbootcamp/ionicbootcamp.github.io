@@ -15,7 +15,16 @@
     </ion-navbar>
 </ion-header>
 <ion-content>
-    <img src="img/heading.jpg">
+    <ion-slides [options]="mySlideOptions">
+        <ion-slide>
+            <img src="img/0.jpg" />
+        </ion-slide>
+        <ion-slide>
+            <div class="city-slider">Fortaleza - CE</div>
+            <img src="img/1.jpg" />
+        </ion-slide>
+    </ion-slides>
+
     <div class="padding-20">
         <h2>Um dia inteiro construindo o futuro dos apps mobile.</h2>
         <p style="margin: 5px 0 0;">O Ionic Bootcamp é um curso completo de 12h em um dia de treinamento presencial utilizando o framework Ionic 2 para a construição da aplicativos híbridos para Android, iOS e Windows.</p>

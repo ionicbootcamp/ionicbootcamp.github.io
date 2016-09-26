@@ -14,12 +14,6 @@ export class Cidades {
 
     this.cidades = [
       {
-        name: 'Fortaleza - CE',
-        date: '18 de setembro',
-        image: 'img/cidades/fortaleza.jpg',
-        url: 'https://store.tampa.works/produto/ionic-bootcamp-fortaleza/?curso=ionic'
-      },
-      {
         name: 'Salvador - BA',
         date: '9 de Outubro',
         image: 'img/cidades/salvador.jpg',
@@ -30,6 +24,30 @@ export class Cidades {
         date: '16 de Outubro',
         image: 'img/cidades/goiania.jpg',
         url: 'https://store.tampa.works/produto/ionic-bootcamp-goiania/?curso=ionic'
+      },
+      {
+        name: 'São Luis - MA',
+        date: '23 de Outubro',
+        image: 'img/cidades/sl.jpg',
+        url: 'https://store.tampa.works/produto/ionic-bootcamp-sao-luis/?curso=ionic'
+      },
+      {
+        name: 'Foz do Iguaçu - PR',
+        date: '28 de Outubro',
+        image: 'img/cidades/foz.jpg',
+        url: 'https://store.tampa.works/produto/ionic-bootcamp-foz-do-iguacu/?curso=ionic'
+      },
+      {
+        name: 'Belo Horizonte - MG',
+        date: '6 de Novembro',
+        image: 'img/cidades/bh.jpg',
+        url: 'https://store.tampa.works/produto/ionic-bootcamp-bh/?curso=ionic'
+      },
+      {
+        name: 'Ribeirão Preto - SP',
+        date: '10 de Dezembro',
+        image: 'img/cidades/Ribeirão.jpg',
+        url: 'https://store.tampa.works/produto/ionic-bootcamp-ribeirao-preto/?curso=ionic'
       }
     ]
   }

@@ -9,20 +9,26 @@ import {Cidades} from '../../pages/cidades/cidades';
   templateUrl: 'build/pages/home/template.html'
 })
 export class Home {
-  nav:Nav;
-  platform:Platform;
+  nav: Nav;
+  platform: Platform;
+  mySlideOptions: Object;
 
   constructor(nav: Nav, platform: Platform) {
     this.nav = nav;
     this.platform = platform;
+
+    this.mySlideOptions = {
+      autoplay: 3000,
+      loop: true
+    };
   }
 
-  openAgenda(){
+  openAgenda() {
     this.nav.setRoot(Agenda);
   }
 
-  openRegister(){
-    this.nav.setRoot(Cidades)
+  openRegister() {
+    this.nav.setRoot(Cidades);
   }
   
   openBitBar(){

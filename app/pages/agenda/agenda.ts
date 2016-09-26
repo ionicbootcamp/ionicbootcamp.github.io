@@ -29,7 +29,7 @@ export class Agenda {
       {
         time: "08:15",
         title: "O que há de novo no Ionic 2?",
-        description: "Uma palestra com uma visão geral sobre o Ionic 2, as mudanças mudanças, os componentes, o uso de TypeScript, as diferenças e os motivos que fizeram o Ionic chegar a esse estado atual."
+        description: "Uma palestra com uma visão geral sobre o Ionic 2, as mudanças, os componentes, o uso de TypeScript, as diferenças e os motivos que fizeram o Ionic chegar a esse estado atual."
       },
       {
         time: "09:00",

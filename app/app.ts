@@ -10,6 +10,8 @@ import {Depoimentos} from './pages/depoimentos/depoimentos';
 import {Cidades} from './pages/cidades/cidades';
 import {Company} from './pages/company/company';
 import {Validar} from './pages/validar/validar';
+import {ParceirosPage} from './pages/parceiros/parceiros';
+import {UltimosPage} from './pages/ultimos/ultimos';
 import {InAppBrowser} from 'ionic-native';
 
 @Component({
@@ -19,6 +21,7 @@ class IonicBootcamp {
   @ViewChild(Nav) nav: Nav;
 
   rootPage: any = Home;
+ // rootPage: any = ParceirosPage;
   pages: Array<{title: string, component: any}>;
   studentPages: Array<{title: string, component: any}>;
 
@@ -29,7 +32,9 @@ class IonicBootcamp {
       { title: 'Agenda', component: Agenda },
       { title: 'Pré-requisitos', component: Requisitos },
       { title: 'Próximos Bootcamps', component: Cidades },
-      { title: 'Instrutor', component: Instrutor }
+      { title: 'Últimas Edições', component: UltimosPage },
+      { title: 'Instrutor', component: Instrutor },
+      { title: 'Parceiros', component: ParceirosPage }
     ];
       
     this.studentPages = [
@@ -64,6 +69,14 @@ class IonicBootcamp {
       window.open("https://ionicbootcamp.slack.com", '_blank');
     } else {
       InAppBrowser.open("https://ionicbootcamp.slack.com", "_system");
+    }
+  }
+
+  openGit() {
+    if(this.platform.is('core') || this.platform.is('mobileweb')){
+      window.open("https://gitlab.com/groups/ionic-bootcamp", '_blank');
+    } else {
+      InAppBrowser.open("https://gitlab.com/groups/ionic-bootcamp", "_system");
     }
   }
 }
