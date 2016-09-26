@@ -3,7 +3,7 @@
 
 ### Um dia inteiro construindo o futuro dos apps mobile.
 
-O Ionic Bootcamp é um curso completo de 12h em um dia de treinamento presencial utilizando o framework Ionic 2 para a construição da aplicativos híbridos para Android, iOS e Windows.
+O Ionic Bootcamp é um curso completo de 12h em um dia de treinamento presencial utilizando o framework Ionic 2 para a construção da aplicativos híbridos para Android, iOS e Windows.
 
 ### Iremos aprender durante o curso:
 - Novidades do Ionic 2
