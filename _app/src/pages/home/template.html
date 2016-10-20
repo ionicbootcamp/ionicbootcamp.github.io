@@ -1,0 +1,62 @@
+<ion-header>
+    <ion-navbar color="primary">
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Ionic Bootcamp</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content>
+    <ion-slides [options]="mySlideOptions">
+        <ion-slide>
+            <img src="assets/img/0.jpg" />
+        </ion-slide>
+        <ion-slide>
+            <div class="city-slider">Fortaleza - CE</div>
+            <img src="assets/img/1.jpg" />
+        </ion-slide>
+        <ion-slide>
+            <div class="city-slider">Salvador - BA</div>
+            <img src="assets/img/1.jpg" />
+        </ion-slide>
+    </ion-slides>
+
+    <div class="padding-20">
+        <h2>Um dia inteiro construindo o futuro dos apps mobile.</h2>
+        <p style="margin: 5px 0 0;">O Ionic Bootcamp é um curso completo de 12h em um dia de treinamento presencial utilizando o framework Ionic 2 para a construição da aplicativos híbridos para Android, iOS e Windows.</p>
+    </div>
+    <ion-grid>
+        <ion-row>
+            <ion-col width-50>
+                <button ion-button block (click)="openAgenda()">Agenda completa</button>
+            </ion-col>
+            <ion-col width-50>
+                <button ion-button block (click)="openRegister()">Inscreva-se</button>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+    <div class="padding-20">
+        <strong>Iremos aprender durante o curso:</strong>
+        <ul>
+            <li>Novidades do Ionic 2</li>
+            <li>Como trabalhar com o Angular 2 no Ionic</li>
+            <li>Uso e criação de componentes</li>
+            <li>Uso de APIs e plugins Nativos (Geolocalização, Câmera, Network, Analytics, Browser, entre outros)</li>
+            <li>Autenticação e Database com o Firebase</li>
+            <li>Uso de APIs externas como Foursquare, YouTube e Google Maps</li>
+            <li>E mais!</li>
+        </ul>
+    </div>
+    <ion-grid style="background: #f4f4f4;">
+        <ion-row>
+            <ion-col width-20>
+                <img src="assets/img/bitbar/icon.png" />
+            </ion-col>
+            <ion-col width-80>
+                <p style="margin: 8px 0 0"><strong>Baixe o BitBar</strong></p>
+                <p style="margin: 5px 0 8px">Faça o download de um dos aplicativos que iremos criar durante o curso!</p>
+                <button ion-button small (click)="openBitBar()">Google Play</button> <button ion-button small disabled>App Store</button>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

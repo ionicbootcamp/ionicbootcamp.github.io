@@ -1,0 +1,22 @@
+<ion-header>
+    <ion-navbar color="primary">
+        <button ion-button icon-only menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Próximos Bootcamps</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content class="card-background-page">
+
+    <ion-card *ngFor="let cidade of cidades">
+        <div (click)="openSite(cidade.url)" class="cursor: hand;">
+            <img [src]="cidade.image" />
+            <div class="card-title">{{cidade.name}}</div>
+            <div class="card-subtitle">{{cidade.date}}</div>
+        </div>
+    </ion-card>
+
+    <div style="margin: 10px">
+        <button ion-button ion-icon icon-left block clear (click)="openSite('https://store.tampa.works/contato/?curso=ionic')"><ion-icon name="ionic"></ion-icon> Quer na sua cidade? Entre em contato</button>
+    </div>
+</ion-content>

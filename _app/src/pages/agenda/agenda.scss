@@ -1,0 +1,19 @@
+.agenda-hour {
+    text-align: right;
+}
+
+ion-row.agenda-row:nth-child(2n) {
+    background: #CADCB5 !important;
+}
+
+ion-row.agenda-row:nth-child(2n+1) {
+    background: #E5EEDA !important;
+}
+
+.agenda-grid {
+    padding: 0;
+}
+
+.slot-p-margin {
+    margin: 10px 20px 5px 0;
+}

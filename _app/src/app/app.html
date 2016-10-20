@@ -1,0 +1,18 @@
+<ion-menu [content]="content">
+    <ion-toolbar color="secondary">
+        <ion-title><img src="assets/img/icon.png" style="height: 30px; margin-top: 4px;" /></ion-title>
+    </ion-toolbar>
+    <ion-content>
+        <ion-list>
+            <button ion-item *ngFor="let p of pages" (click)="openPage(p)"> {{p.title}} </button>
+            <button ion-item (click)="openContact()">Contato</button>
+        </ion-list>
+        <ion-list>
+            <ion-list-header> Para os alunos </ion-list-header>
+            <button ion-item (click)="openSlack()">Slack</button>
+            <button ion-item (click)="openGit()">GitLab</button>
+            <button ion-item *ngFor="let p of studentPages" (click)="openPage(p)"> {{p.title}} </button>
+        </ion-list>
+    </ion-content>
+</ion-menu>
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>
