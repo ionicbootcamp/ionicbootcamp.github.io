@@ -19,13 +19,6 @@ No Ionic Bootcamp iremos fazer 4 apps completos num dia de curso.
 
 ### Site oficial: http://ionicbootcamp.com
 
-## Cidades
-Cidade | Data | Inscrições
---- | --- | ---
-Fortaleza | 18 de Setembro |  http://joselito.pw/ionicfortaleza
-Salvador | 9 de Outubro | http://joselito.pw/ionicssa
-Goiania | 17 de Outubro | http://joselito.pw/ionicgoiania
-
 ## Agenda completa
 Horário | Conteúdo
 --- | ---
