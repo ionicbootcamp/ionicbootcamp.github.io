@@ -14,6 +14,18 @@ export class UltimosPage {
 
     this.cidades = [
       {
+        name: 'Curitiba - PR',
+        date: '1 de Novembro',
+        image: 'assets/img/cidades/curitiba.jpg',
+        url: '#'
+      },
+      {
+        name: 'Cascavel - PR',
+        date: '30 de Outubro',
+        image: 'assets/img/cidades/cascavel.jpg',
+        url: '#'
+      },
+      {
         name: 'Salvador - BA',
         date: '9 de Outubro',
         image: 'assets/img/cidades/salvador.jpg',

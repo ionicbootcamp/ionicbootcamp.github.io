@@ -14,22 +14,10 @@ export class Cidades {
 
     this.cidades = [
       {
-        name: 'Foz do Iguaçu - PR',
-        date: '28 de Outubro',
-        image: 'assets/img/cidades/foz.jpg',
-        url: 'https://store.tampa.works/produto/ionic-bootcamp-foz-do-iguacu/?curso=ionic'
-      },
-      {
-        name: 'Cascavel - PR',
-        date: '30 de Outubro',
-        image: 'assets/img/cidades/cascavel.jpg',
-        url: 'https://store.tampa.works/produto/ionic-bootcamp-foz-do-iguacu/?curso=ionic'
-      },
-      {
-        name: 'Curitiba - PR',
-        date: '1 de Novembro',
-        image: 'assets/img/cidades/curitiba.jpg',
-        url: 'https://store.tampa.works/produto/ionic-bootcamp-foz-do-iguacu/?curso=ionic'
+        name: 'São Paulo - SP',
+        date: '13 de Novembro',
+        image: 'assets/img/cidades/sp.jpg',
+        url: 'https://store.tampa.works/produto/ionic-bootcamp-sao-paulo/?curso=ionic'
       },
       {
         name: 'Ribeirão Preto - SP',
