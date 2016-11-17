@@ -20,6 +20,18 @@ export class Cidades {
         url: 'https://store.tampa.works/produto/ionic-bootcamp-sao-paulo/?curso=ionic'
       },
       {
+        name: 'Belo Horizonte - MG',
+        date: '26 de Novembro',
+        image: 'assets/img/cidades/bh.jpg',
+        url: 'https://store.tampa.works/produto/ionic-bootcamp-bh/?curso=ionic'
+      },
+      {
+        name: 'Aracaju - SE',
+        date: '4 de Dezembro',
+        image: 'assets/img/cidades/aju.jpg',
+        url: 'https://store.tampa.works/produto/ionic-bootcamp-aracaju/?curso=ionic'
+      },
+      {
         name: 'Ribeirão Preto - SP',
         date: '10 de Dezembro',
         image: 'assets/img/cidades/Ribeirão.jpg',
@@ -30,6 +42,12 @@ export class Cidades {
         date: '17 de Dezembro',
         image: 'assets/img/cidades/sl.jpg',
         url: 'https://store.tampa.works/produto/ionic-bootcamp-sao-luis/?curso=ionic'
+      },
+      {
+        name: 'Cuiabá - MT',
+        date: '21 de Janeiro',
+        image: 'assets/img/cidades/cuiaba.jpg',
+        url: 'https://store.tampa.works/produto/ionic-bootcamp-cuiaba/?curso=ionic'
       }
     ]
   }
