@@ -81,4 +81,12 @@ export class MyApp {
       InAppBrowser.open("https://gitlab.com/groups/ionic-bootcamp", "_system");
     }
   }
+
+  openGithub() {
+    if(this.platform.is('core') || this.platform.is('mobileweb')){
+      window.open("https://github.com/ionicbootcamp", '_blank');
+    } else {
+      InAppBrowser.open("https://github.com/ionicbootcamp", "_system");
+    }
+  }
 }
