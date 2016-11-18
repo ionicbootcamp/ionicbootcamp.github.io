@@ -14,12 +14,6 @@ export class Cidades {
 
     this.cidades = [
       {
-        name: 'São Paulo - SP',
-        date: '13 de Novembro',
-        image: 'assets/img/cidades/sp.jpg',
-        url: 'https://store.tampa.works/produto/ionic-bootcamp-sao-paulo/?curso=ionic'
-      },
-      {
         name: 'Belo Horizonte - MG',
         date: '26 de Novembro',
         image: 'assets/img/cidades/bh.jpg',
